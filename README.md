@@ -17,8 +17,6 @@ The bundled example uses **hsa-mir-490** in **LUAD** (lung adenocarcinoma) and *
 | `staging-hsa-mir-490_LUAD.csv` | Included LUAD stage-grouped output: 560 rows. |
 | `staging-hsa-mir-490_LUSC.csv` | Included LUSC stage-grouped output: 519 rows. |
 
-Row counts exclude headers. The original folder also contains `.DS_Store`, a macOS metadata file with no analysis role.
-
 ## Requirements
 
 Use Python 3 with pandas, NumPy, and SciPy. All three packages are imported by the current script, although NumPy and SciPy are not used in the processing logic.
